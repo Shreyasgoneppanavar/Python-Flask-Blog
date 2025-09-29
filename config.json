@@ -1,0 +1,25 @@
+{
+  "params":
+  {
+    "local_server": "True",
+    "local_uri": "mysql+pymysql://flaskuser:Flask123@localhost:3306/flask_db",
+    "prod_uri": "mysql+pymysql://flaskuser:Flask123@localhost:3306/flask_db",
+    "fb_url": "https://facebook.com/thunderbreathing",
+    "x_url": "https://x.com/thunderbreathing",
+    "git_url": "https://git.com/thunderbreathing",
+    "blog_name": "Demon Slayer Corp",
+    "blog_title": "StoryNest",
+    "gmail-user": "shrshreyas999@gmail.com",
+    "gmail-password": "dogx aigb bidz uaue",
+    "about_text": "Hi my name is Shreyas nice to meat you I im intrested in coding and software development, now im learning Flask for further concepts.",
+    "no_of_posts": 2,
+    "login_image": "bootstrap-logo.svg",
+    "admin_user": "ShreyasP",
+    "admin_password": "Shre",
+    "upload_location": "C:\\Users\\Shreyas\\OneDrive\\Desktop\\Flask\\static\\img"
+
+
+
+  }
+
+}
