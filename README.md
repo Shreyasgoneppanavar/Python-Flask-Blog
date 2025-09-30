@@ -4,20 +4,20 @@ Flask Blog App with database integration and pagination. Allows users to navigat
 ---
 
 ## Features
-- 🔐 User Authentication (Login / Register / Logout)
-- ✍️ Create new blog posts
-- 📝 Edit existing posts
-- ❌ Delete posts
-- 📖 View all posts with pagination
-- 🎨 Responsive design with **Bootstrap**
+- User Authentication (Login / Register / Logout)
+- Create new blog posts
+- Edit existing posts
+- Delete posts
+- View all posts with pagination
+- Responsive design with **Bootstrap**
 
 ---
 
-## 🛠️ Setup Guide
+## Setup Guide
 
 Follow these steps to set up and run the project on your local machine.
 
-### 1️⃣ Clone the repository
+### 1️. Clone the repository
 
 ```bash
 
@@ -25,7 +25,7 @@ git clone [clone https://github.com/your-username/Flask-Blog-App.git](https://gi
 cd Flask-Blog-App
 ```
 
-### 2️⃣ Create a virtual environment & install dependencies
+### 2️. Create a virtual environment & install dependencies
 
 ```bash
 
@@ -42,21 +42,14 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Configure Database
+### 3️. Configure Database
 
-By default, the project uses **SQLite**.
-
-In `app.py`:
-```python
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///blog.db'
-```
-
-👉 If you want to use MySQL, install pymysql and update the URI:
+If you want to use MySQL, install pymysql and update the URI:
 ```
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://username:password@localhost/blog_db'
 ```
 
-### 4️⃣ Initialize the Database
+### 4️. Initialize the Database
 
 Run the following commands inside Python shell:
 ```python
@@ -66,7 +59,7 @@ exit()
 ```
 This will create the blog.db file (or your chosen database).
 
-### 5️⃣ Run the Application
+### 5️. Run the Application
 
 ```bash
 flask run
@@ -75,10 +68,8 @@ or
 ```bash
 python app.py
 ```
-Your app will now be running at:
-👉 http://127.0.0.1:5000
 
-## 📂 Project Structure
+## Project Structure
 
 ```csharp
 Flask-Blog-App/
@@ -95,7 +86,7 @@ Flask-Blog-App/
 │── screenshots/          # App screenshots
 ```
 
-## 📸 Screenshots
+## Screenshots
 
 ### Home page of my Blog App
 
